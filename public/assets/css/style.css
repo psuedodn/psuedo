@@ -472,8 +472,8 @@ ul.liststyle.bullet li + li {
 ul li {
   font-size: var(--font-size-b1);
   line-height: var(--line-height-b1);
-  margin-top: 10px;
-  margin-bottom: 10px;
+  /* margin-top: 10px;
+  margin-bottom: 10px; */
   color: var(--color-body);
 }
 ul li a {
@@ -12054,9 +12054,9 @@ figcaption {
   padding: 90px 0 0 0;
   color: #ffc107;
   font-weight: 700;
-  font-size: 45px;
-  line-height: 55px;
-  margin-bottom: 22px;
+  font-size: 40px;
+  line-height: 50px;
+  margin-bottom: 20px;
   font-family: var(--font-secondary);
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -12121,14 +12121,14 @@ figcaption {
 }
 .slide .content .inner .description {
   font-size: 16px;
-  line-height: 30px;
+  /* line-height: 30px; */
   color: var(--color-lightn);
   padding-right: 16%;
   opacity: 0.9;
 }
 li.description p {
   font-size: 16px;
-  line-height: 30px;
+  /* line-height: 30px; */
   color: var(--color-lightn);
   padding-right: 16%;
   opacity: 0.9;
