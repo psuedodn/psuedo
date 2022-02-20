@@ -6,6 +6,170 @@
 .dayStr {
   color: #fff;
 }
+.preSale {
+  margin-top: 2%;
+  margin-bottom: 0 !important;
+}
+.rn-btn.animated-button.victoria-three {
+  width: 50%;
+}
+a.animated-button:link,
+a.animated-button:visited {
+  position: relative;
+  display: block;
+  margin: 30px auto 0;
+  padding: 14px 15px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  letter-spacing: 0.08em;
+  border-radius: 0;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+a.animated-button:link:after,
+a.animated-button:visited:after {
+  content: '';
+  position: absolute;
+  height: 0%;
+  left: 50%;
+  top: 50%;
+  width: 100%;
+  z-index: -1;
+  -webkit-transition: all 0.75s ease 0s;
+  -moz-transition: all 0.75s ease 0s;
+  -o-transition: all 0.75s ease 0s;
+  transition: all 0.75s ease 0s;
+}
+a.animated-button:link:hover,
+a.animated-button:visited:hover {
+  color: #fff;
+  text-shadow: none;
+}
+a.animated-button:link:hover:after,
+a.animated-button:visited:hover:after {
+  height: 60px;
+}
+a.animated-button:link,
+a.animated-button:visited {
+  position: relative;
+  display: block;
+  margin: 30px auto 0;
+  padding: 14px 15px;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 0;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  letter-spacing: 0.08em;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+a.animated-button.victoria-three {
+  border: 2px solid #ff2585;
+}
+a.animated-button.victoria-three:after {
+  background: #ff2585;
+  opacity: 0.5;
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+a.animated-button.victoria-three:hover:after {
+  height: 140%;
+  opacity: 1;
+}
+.glow-on-hover {
+  width: 220px;
+  height: 60px;
+  border: none;
+  outline: none;
+  color: #fff;
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+}
+
+.glow-on-hover:before {
+  content: '';
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00c8,
+    #ff0000
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing 20s linear infinite;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+.glow-on-hover:active {
+  color: #000;
+}
+
+.glow-on-hover:active:after {
+  background: transparent;
+}
+
+.glow-on-hover:hover:before {
+  opacity: 1;
+}
+
+.glow-on-hover:after {
+  z-index: -1;
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #111;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+@keyframes glowing {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
 .pinkTxt {
   text-shadow: 0 0 10px #ff014f, 0 0 20px #ff014f, 0 0 30px #ff014f,
     0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de,
@@ -85,6 +249,9 @@ a.rn-btn {
 }
 
 @media only screen and (max-width: 1024px) {
+  .finoRewards {
+    line-height: 1.35 !important;
+  }
   .slide.slider-style-4 {
     height: auto;
     padding: 50px 0;
@@ -114,7 +281,7 @@ a.rn-btn {
   }
   h2,
   .h2 {
-    font-size: 6.25vw;
+    font-size: 10.25vw;
   }
   h3,
   .h3 {
@@ -142,11 +309,18 @@ a.rn-btn {
     position: relative;
     left: -6px !important;
     /* Custom css for bullet alignment*/
-    font-size: 2.25vw !important;
+    font-size: 3vw !important;
     line-height: inherit;
     color: var(--color-lightn);
     padding-right: 0;
     opacity: 0.9;
+  }
+  .homeUlList ul {
+    padding: 0 0 0 20px;
+  }
+  .slide .content .inner .description {
+    font-size: 16px;
+    line-height: 18px;
   }
   .rn-about-area .contant .discription {
     font-size: 3.25vw !important;
@@ -155,7 +329,7 @@ a.rn-btn {
     padding-right: 0 !important;
   }
   .section-title h2.title {
-    font-size: 5vw;
+    font-size: 6vw;
     margin-top: 7px;
     text-align: center;
   }
@@ -167,17 +341,17 @@ a.rn-btn {
   }
 
   .rn-service .inner .content .title {
-    font-size: 3.75vw !important;
+    font-size: 4vw !important;
     line-height: inherit !important;
   }
   .rn-service .inner .content p.description {
-    font-size: 2.35vw !important;
+    font-size: 3vw !important;
     line-height: inherit;
   }
   a.rn-btn,
   button.rn-btn,
   .section-title span.subtitle {
-    font-size: 3.5vw !important;
+    font-size: 4vw !important;
     text-align: center;
     display: block;
     margin: 5% 0 2% 0;
@@ -203,19 +377,22 @@ a.rn-btn {
   .footer-style-2 .menu-wrapper .menu-footer li a,
   .footer-style-2 .menu-wrapper .menu-title h6,
   .slide .social-share-inner-left .social-share li a {
-    font-size: 2.5vw !important;
+    font-size: 3.75vw !important;
   }
 
+  .preSale {
+    margin-top: 10%;
+  }
   .slide .social-share-inner-left .social-share li a {
     display: inline-block;
     width: 170px !important;
   }
 
   .popup-mobile-menu.menu-open .inner .content .primary-menu .nav-item a {
-    font-size: 2.2vw !important;
+    font-size: 3.2vw !important;
   }
   .social-share-style-1 .title {
-    font-size: 2vw !important;
+    font-size: 3.2vw !important;
   }
 
   .social-share-style-1 .social-share li a svg {
