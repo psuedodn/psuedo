@@ -160,7 +160,7 @@ const Banner = () => {
                       The Hyper Deflationary & Auto- Compounding Protocol in
                       <span>Crypto</span>
                     </h1>
-                    <div>
+                    <div className="homeUlList">
                       <ul>
                         <li className="description color_white">
                           <p className="color_white">
@@ -193,21 +193,27 @@ const Banner = () => {
                   </div>
 
                   <div className="row ">
-                    <div className="col-lg-12 col-xl-6 col-md-12 col-sm-12 col-12">
+                    <div className="col-lg-12 col-xl-7 col-md-12 col-sm-12 col-12">
                       <div className="social-share-inner-left">
                         <ul className="social-share d-flex liststyle">
                           <li className="facebook">
-                            <a href="#">$Buy FINO</a>
+                            <button type="button" className="glow-on-hover">
+                              $Buy FINO
+                            </button>
                           </li>
                           <li className="instagram">
-                            <a href="#">White Paper</a>
+                            <button type="button" className="glow-on-hover">
+                              White Paper
+                            </button>
                           </li>
                         </ul>
                       </div>
                     </div>
                   </div>
 
-                  <p>Presale Starts on Feb 8th 2022, Tuesday 1.30 PM UTC</p>
+                  <p className="preSale">
+                    Presale Starts on Feb 8th 2022, Tuesday 1.30 PM UTC
+                  </p>
                   <h5 className="timerAlign" id="targetData"></h5>
                 </div>
               </div>
