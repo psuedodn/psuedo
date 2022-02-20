@@ -153,7 +153,7 @@ const Banner = () => {
               </div>
             </div>
             <div className="row">
-              <div className="order-2 order-lg-1 col-lg-9 col-xl-8">
+              <div className="order-2 order-lg-1 col-lg-12 col-xl-8">
                 <div className="content">
                   <div className="inner mb_sm--80">
                     <h1 className="title">
@@ -204,6 +204,26 @@ const Banner = () => {
                           <li className="instagram">
                             <button type="button" className="glow-on-hover">
                               White Paper
+                            </button>
+                          </li>
+                          <li className="facebook">
+                            <button type="button" className="glow-on-hover">
+                              Buy On Pancake Swap
+                            </button>
+                          </li>
+                          <li className="instagram">
+                            <button type="button" className="glow-on-hover">
+                              PooCoin Chart
+                            </button>
+                          </li>
+                          <li className="instagram">
+                            <button type="button" className="glow-on-hover">
+                              DexTool Chart
+                            </button>
+                          </li>
+                          <li className="instagram">
+                            <button type="button" className="glow-on-hover">
+                              BoggedChart
                             </button>
                           </li>
                         </ul>
