@@ -209,7 +209,10 @@ const WhyGazo = () => {
                     <h2 className="pinkTxt">211465.20%</h2>
                     <h6 className="mt--50 color_blk">Fixed Staking APY</h6>
 
-                    <a className="rn-btn" href="#contacts">
+                    <a
+                      className="rn-btn animated-button victoria-three"
+                      href="#contacts"
+                    >
                       <span>Open App</span>
                     </a>
                   </div>
@@ -241,8 +244,7 @@ const WhyGazo = () => {
 
               <div className="col-12 mt_sm100 text-center">
                 <div className="section-title">
-                  <h5 className="title color_blk">
-                    {' '}
+                  <h5 className="title color_blk finoRewards">
                     Fino rewards holders with automatic compounding interest,
                     increasing their Fino holdings over time.
                   </h5>
@@ -446,7 +448,7 @@ const WhyGazo = () => {
                     Fino token holders to generate even more rewards. Simple,
                     Powerful and Proven.
                   </p>
-                  <div>
+                  <div className="homeUlList">
                     <ul>
                       <li className="description color_blk">
                         <p className="color_blk">
