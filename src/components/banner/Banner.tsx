@@ -196,11 +196,6 @@ const Banner = () => {
                     <div className="col-lg-12 col-xl-7 col-md-12 col-sm-12 col-12">
                       <div className="social-share-inner-left">
                         <ul className="social-share d-flex liststyle">
-                          <li className="facebook">
-                            <button type="button" className="glow-on-hover">
-                              $Buy FINO
-                            </button>
-                          </li>
                           <li className="instagram">
                             <button type="button" className="glow-on-hover">
                               White Paper
