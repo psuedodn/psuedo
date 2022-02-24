@@ -1,3 +1,6 @@
+h6 {
+  font-size: 14px;
+}
 .timerAlign {
   display: inline-block;
   font-size: 1.75vw;
@@ -9,6 +12,17 @@
 .preSale {
   margin-top: 2%;
   margin-bottom: 0 !important;
+  color: #fff;
+}
+.minusPosi {
+  position: relative;
+  top: 25px;
+}
+.rewardsSecAlign {
+  margin: 350px 0 0 0;
+}
+.slider_topAlign {
+  padding: 200px 0 0 0;
 }
 .rn-btn.animated-button.victoria-three {
   width: 50%;
@@ -113,17 +127,17 @@ a.animated-button.victoria-three:hover:after {
   border: 1px solid rgb(255, 251, 0) !important;
 }
 .glow-on-hover {
-  width: 220px;
+  width: 200px;
   height: 50px;
   border: none;
   outline: none;
   color: #fff;
-  background: #111;
+  background: #ffc107;
   cursor: pointer;
   position: relative;
   z-index: 0;
   border-radius: 10px;
-  border: 1px solid #fffb00;
+  border: 2px solid #fffb00;
   font-size: 15px;
 }
 
@@ -173,7 +187,7 @@ a.animated-button.victoria-three:hover:after {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: #111;
+  background: #ffc107;
   left: 0;
   top: 0;
   border-radius: 10px;
@@ -190,11 +204,11 @@ a.animated-button.victoria-three:hover:after {
     background-position: 0 0;
   }
 }
-.pinkTxt {
+/* .pinkTxt {
   text-shadow: 0 0 10px #ff014f, 0 0 20px #ff014f, 0 0 30px #ff014f,
     0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de,
     0 0 150px #ff00de;
-}
+} */
 
 #c1,
 #c2,
@@ -229,11 +243,125 @@ a.animated-button.victoria-three:hover:after {
 .bg_black {
   background-color: #000;
 }
+.bg_greyAbt {
+  background-color: #333;
+  border-radius: 25px;
+  padding: 2%;
+}
 .color_blk {
   color: #000 !important;
 }
 .color_white {
   color: #fff !important;
+}
+.color_yellow {
+  color: #ffc107 !important;
+}
+.padd_5Per {
+  padding: 5%;
+}
+.bor_radius {
+  border-radius: 25px;
+}
+
+element.style {
+}
+.rn-service .inner .content .title a {
+  transition: var(--transition);
+}
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a,
+.h1 a,
+.h2 a,
+.h3 a,
+.h4 a,
+.h5 a,
+.h6 a {
+  color: inherit;
+}
+a {
+  color: var(--color-heading);
+  text-decoration: none;
+  outline: none;
+}
+a {
+  color: #007bff;
+  text-decoration: none;
+  background-color: transparent;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+* {
+  box-sizing: border-box;
+}
+*,
+::after,
+::before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+user agent stylesheet a:-webkit-any-link {
+  color: -webkit-link;
+  cursor: pointer;
+  text-decoration: underline;
+}
+sup.supsetAlign {
+  font-size: 100px;
+  color: #808080;
+  top: -40px;
+  right: 25px;
+}
+.CombinedShape {
+  position: absolute;
+  right: -55px;
+  top: -20px;
+}
+.controllerDotAlign {
+  position: absolute;
+  left: -55px;
+  top: 250px;
+  z-index: 0;
+}
+.ThreeCircleAlign {
+  position: absolute;
+  left: -220px;
+  top: 50px;
+  z-index: 0;
+}
+.ThreeCircleAlign img {
+  width: 75%;
+}
+.CombinedShape2 {
+  position: absolute;
+  left: -30px;
+  bottom: -60px;
+  z-index: -1;
+}
+.CombinedShape2 img {
+  transform: rotate(270deg);
+  width: 70%;
+}
+.TwoCircleAlign {
+  position: absolute;
+  left: -140px;
+  top: 250px;
+  z-index: 0;
+}
+.controllerDotAlign img {
+  width: 50%;
+}
+.footerBg1 {
+  background-image: url('../images/bg/footerBg.png');
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: -25px 0;
 }
 a.rn-btn {
   box-shadow: none !important;
@@ -241,8 +369,10 @@ a.rn-btn {
   color: #000;
 }
 .rn-service {
-  box-shadow: none !important;
-  border: #d39e01 3px solid !important;
+  /* border: #d39e01 3px solid !important; */
+  -webkit-box-shadow: 0px 0px 21px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 21px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 21px 0px rgba(0, 0, 0, 0.75);
 }
 .section-title span.subtitle {
   font-size: 22px;
@@ -260,6 +390,12 @@ a.rn-btn {
   width: 170px !important;
 }
 @media only screen and (max-width: 450px) {
+  .rn-about-area .contant {
+    top: 51px;
+  }
+  .rewardsSecAlign {
+    margin: 50px 0 0 0;
+  }
   .header-wrapper .header-right i {
     position: absolute;
     transition: 0.5s;
@@ -406,6 +542,7 @@ a.rn-btn {
 
   .preSale {
     margin-top: 10%;
+    color: #fff;
   }
   .slide .social-share-inner-left .social-share li a {
     display: inline-block;

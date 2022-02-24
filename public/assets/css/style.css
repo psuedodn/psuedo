@@ -199,7 +199,7 @@ h1,
 
 h2,
 .h2 {
-  font-size: var(--h2);
+  font-size: 30px;
   line-height: 1.33;
 }
 
@@ -528,7 +528,7 @@ ol ul {
 }
 
 .rn-section-gap {
-  padding: 100px 0;
+  padding: 50px 0;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .rn-section-gap {
@@ -5192,7 +5192,7 @@ a:focus,
 a:active {
   text-decoration: none;
   outline: none;
-  color: var(--color-primary);
+  color: #333;
 }
 
 a:focus {
@@ -5974,7 +5974,7 @@ Background Image
 }
 
 .bg_image--1 {
-  background-image: url(../images/bg/bg-image-1.jpg);
+  background-image: url(../images/bg/bg-image-1.png);
 }
 
 .bg_image--2 {
@@ -10441,7 +10441,7 @@ body.template-color-1 {
   align-items: center;
 }
 .header-wrapper .header-right {
-  margin-left: 30px;
+  margin-left: 120px;
   justify-content: flex-end;
   display: flex;
   margin-right: -18px;
@@ -10456,7 +10456,7 @@ body.template-color-1 {
 @media only screen and (min-width: 1200px) and (max-width: 1599px) {
   .header-wrapper .header-right a.rn-btn {
     font-size: 13px;
-    padding: 17px 19px;
+    padding: 6px 20px;
     line-height: 21px;
   }
 }
@@ -11481,8 +11481,9 @@ button.rn-btn.no-shadow {
 }
 a.rn-btn.btn-theme,
 button.rn-btn.btn-theme {
-  background: var(--color-primary) !important;
+  background-color: #000 !important;
   color: var(--color-white) !important;
+  border: 0px !important;
 }
 a.rn-btn.btn-theme::before,
 button.rn-btn.btn-theme::before {
@@ -11914,22 +11915,22 @@ figcaption {
 }
 
 .section-title h2.title {
-  font-size: 60px;
+  font-size: 30px;
   font-weight: 700;
-  line-height: 1.54;
+  /* line-height: 1.54; */
   color: #ffc107;
   margin-top: 15px;
   margin-bottom: 0;
 }
 .section-title h5.title {
-  font-size: 35px;
+  font-size: 22px;
   font-weight: 700;
   line-height: 1.54;
   color: var(--color-lightn);
   margin-top: 15px;
   margin-bottom: 0;
-  margin-left: 20%;
-  margin-right: 20%;
+  /* margin-left: 20%;
+  margin-right: 20%; */
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .section-title h2.title {
@@ -12054,8 +12055,8 @@ figcaption {
   padding: 90px 0 0 0;
   color: #ffc107;
   font-weight: 700;
-  font-size: 40px;
-  line-height: 50px;
+  font-size: 35px;
+  line-height: 35px;
   margin-bottom: 20px;
   font-family: var(--font-secondary);
 }
@@ -13352,12 +13353,13 @@ li.description p {
 -----------------------------*/
 .rn-service {
   text-align: left;
-  padding: 35px 50px 35px 50px;
+  padding: 25px;
   transition: 0.5s all ease-in-out;
   position: relative;
   border-radius: 10px;
-  background: var(--background-color-1);
-  box-shadow: var(--shadow-1);
+  /* background: var(--background-color-1); */
+  /* box-shadow: var(--shadow-1); */
+  background-color: #fff !important;
   position: relative;
   z-index: 1;
   height: 100%;
@@ -13395,7 +13397,7 @@ li.description p {
 .rn-service .inner .icon svg {
   width: 50px;
   height: auto;
-  color: var(--color-primary);
+  color: #333;
   stroke-width: 1 !important;
 }
 .rn-service .inner .content .title {
@@ -13404,7 +13406,7 @@ li.description p {
   font-size: 24px;
   line-height: 32px;
   margin-bottom: 20px;
-  color: var(--color-lightn);
+  color: #000;
 }
 @media only screen and (max-width: 767px) {
   .rn-service .inner .content .title {
@@ -13417,7 +13419,7 @@ li.description p {
 .rn-service .inner .content p.description {
   font-size: 16px;
   line-height: 28px;
-  color: var(--color-lightn);
+  color: #000;
   margin-bottom: 22px;
   transition: var(--transition);
 }
@@ -13441,7 +13443,7 @@ li.description p {
   height: 100%;
 }
 .rn-service .inner .content .read-more-button i {
-  color: var(--color-primary);
+  color: #000;
   font-size: 32px;
 }
 .rn-service::before {
@@ -15925,7 +15927,7 @@ div#featured-project-carousel {
 .contact-about-area .description span a {
   transition: var(--transition);
   position: relative;
-  color: var(--color-lightn);
+  color: #000;
   font-weight: 400;
 }
 .contact-about-area .description span a::before {
@@ -16226,7 +16228,7 @@ div#featured-project-carousel {
   font-size: 16px;
   line-height: 28px;
   color: var(--color-lightn);
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
   padding-right: 10%;
 }
 @media only screen and (max-width: 1199px) {
@@ -16970,7 +16972,6 @@ div#featured-project-carousel {
 .footer-style-2 .menu-wrapper .menu-title h6 {
   font-size: 18px;
   text-transform: uppercase;
-  color: var(--color-primary);
   font-weight: 500;
 }
 @media only screen and (max-width: 575px) {
